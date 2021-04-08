@@ -15,4 +15,4 @@ x = [start_num]
 for i in range(n):
     x.append(a * x[i] * (1-x[i]))
 
-st.line_chart(x, height=500)
+st.line_chart(x)
